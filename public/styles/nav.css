@@ -1,0 +1,37 @@
+
+
+#nav-bar {
+  background: #00a087;
+  color: #e8fdff;
+  height: 80px;
+  width: 100%;
+  padding: 0 2em;
+}
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+}
+
+#nav-bar .header {
+  font-size: 200%;
+  line-height: 80px;
+  vertical-align: top;
+}
+
+#nav-bar i {
+  padding: 10px;
+  margin-right: 1em;
+  float: right;
+  font-size: 65px;
+}
+
+#nav-bar i:hover {
+  opacity: 0.6;
+  color: darkgray;
+}
+
+#nav-bar i:active {
+  opacity: 0.6;
+  color: darkgray;
+}

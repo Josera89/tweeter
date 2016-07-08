@@ -6,20 +6,127 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
-
 body {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   color: #244751;
   background-color: #eee;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+main {
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  background: white;
+  padding: 5px 0 100px;
+}
+
+section {
+  width: 450px;
+  margin: auto;
+  background: rgb(235,235,235);
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  margin-top: 140px;
+}
+
+.line-separator{
+  width: 95%;
+  margin: auto;
+  margin-bottom: 15px;
+  border-bottom:2px solid #cccccc;
+}
+
+.line-separator.long {
+  width: 100%;
+}
+
+textarea {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 3px;
+}
+
+h2 {
+  margin-left: 2.5%;
+  color: rgb(26,55,64);
+/*  height: 5px;*/
+}
+
+input {
+  margin-left: 2.5%;
+  margin-bottom: 10px;
+}
+
+.counter {
+  float: right;
+  margin-right: 2.5%;
+}
+
+section#tweet {
+  margin-top: 80px;
+  background: white;
+}
+
+section#tweet:hover {
+  border: 2px solid lightgray;
+/*  box-shadow: 1px 1px 2px #888888;*/
+}
+
+section#tweet .footer-icons {
+  display: none;
+}
+
+section#tweet:hover .footer-icons {
+  display: block;
+}
+
+#tweet article header p {
+  float: right;
+  margin-right: 10px;
+}
+
+#tweet article header h1 {
+  height: 100px;
+  background: rgb(235,235,235);
+  padding: 10px;
+  margin-top: 0px;
+}
+
+#tweet article .body p {
+  background: white;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#tweet article footer {
+  background: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#tweet article header img {
+  position: inherit;
+  float: left;
+  margin: 10px;
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+
+}
+
+span.footer-icons {
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.new-tweet {
+  display: none;
+}
